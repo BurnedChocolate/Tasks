@@ -68,8 +68,8 @@ git init
 它们之间的联系是：**工作区**中的内容通过`git add`命令转存到暂存区中，**暂存区**中的内容又可以通过`git commit`命令储存到**本地仓库**中。（远程仓库的相关讨论见下文）
 
 ```
-git add <filename>   //<filename>这里整个输入文件名
-git add -A           //-A是all的意思，就是全选
+git add <filename>   #<filename>这里整个输入文件名
+git add -A           #-A是all的意思，就是全选
 git commit -m “提交的信息，在此处描述你这次提交的是什么东西，方便之后查看”
 ```
 
@@ -117,20 +117,15 @@ git pull
 
 `git push`是**推送到远程仓库**，`git pull`是**拉取到本地仓库**。
 
+`git push`需要在`git add`和`git commit`命令完成后才能使用，相当于把远程仓库更新成本地仓库目前的状态。`git pull`就是反过来，可能有其他人更改了你远程仓库上的分支，这个命令可以把最新的远程仓库的状态拉取到本地。（很方便的功能呢）
 
-
-
-
-
+值得注意的是，`git push`时，系统会自动检测你要推送的东西是否是相较于远程仓库里的文件的更新的状态。如果远程仓库里的更加的新，系统是不会让你push的（血的教训）所以这种情况下，我们要**先pull，再push，达成本地和远程的双向更新**。
 
 ## 📖参考资料
 
 + [Git 教程 | 菜鸟教程](https://www.runoob.com/git/git-tutorial.html)
 + [40 分钟学会 Git | 日常开发全程大放送&搭配Github](https://www.bilibili.com/video/BV1db4y1d79C/)
 + [Git: 工作区、暂存区、本地仓库、远程仓库](https://blog.csdn.net/weixin_36750623/article/details/96189838)
-+ 
-
-+ 
 
 
 
