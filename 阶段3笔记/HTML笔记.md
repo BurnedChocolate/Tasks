@@ -48,7 +48,9 @@ HTML是我们目前看到的所有网站的基础。HTML使用**标记标签（�
 </html>
 ```
 
+它的拆分分析如下图所示。
 
+![](https://github.com/BurnedChocolate/Tasks/blob/13e2acf4b849996e6f65f0185de016693fd05c61/%E9%98%B6%E6%AE%B53%E7%AC%94%E8%AE%B0/pictures/html%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84.jpg)
 
 
 
