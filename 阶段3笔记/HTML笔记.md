@@ -72,11 +72,11 @@ HTML是我们目前看到的所有网站的基础。HTML使用**标记标签（�
 - `<head>`与`</head>`：**HTML头**，一般放入原数据、搜索引擎的keyword、title、脚本、css文件链接等。
 - `<body>` 与`</body>`：**HTML body**里放入HTML元素，对应网页内看到的所有的页面内容。
 
-> 🤔：声明，告诉浏览器这是一个html文档；根元素，产生一个空白的html页面；html头，放入与文档相关的重要的东西；html body，构成主体，也就是我们可以在网页里直接看到的部分。
+> 🤔：声明，告诉浏览器这是一个html文档；根元素，产生一个空白的html页面；html头，放入与文档相关的重要的东西，一般不会被渲染在网页内；html body，构成主体，也就是我们可以在网页里直接看到的部分。
 
 ### 🎞学习HTML常用标签
 
-#### 📕标题、段落、链接、图像
+#### 📕常用标签之一
 
 - 标题
 
@@ -90,37 +90,53 @@ HTML是我们目前看到的所有网站的基础。HTML使用**标记标签（�
 
 链接标签：`<a herf=""></a>`，一般都要带有属性`herf=""`。herf是超文本引用（hypertext reference）的缩写。意思是此处需要引用一个链接。
 
+> 🤔：如果只添加`herf`属性，用户点击该链接时，页面就会被所连接到的那个网站覆盖。如果想要在新建页面中打开该链接，需要添加属性`target="_blank"`。
+
 - 图片
 
 图片标签：`<img src="" alt="">`，其中`src=""`和`alt=""`这两个标签属性的意思分别是**源**（source）和**代替**（alternative）。前者的意思是指出该图片在哪里；后者是如果该图片不可用时，在此处显示给读者的文本（例如：该图片不可用）。
 
-【图片】
+![](https://github.com/BurnedChocolate/Tasks/blob/1360f90cf0a1a006c91ef1f38b549551a8cb94e8/%E9%98%B6%E6%AE%B53%E7%AC%94%E8%AE%B0/pictures/%E5%9B%BE%E7%89%87%E4%B8%8D%E5%8F%AF%E7%94%A8.jpg)
 
 常用的图片标签属性还有`width=""` 、`height=""`，它们表示该图片的**宽**和**高**，可以根据需求调整。
 
 另外，在HTML中，`./`的意思是**当前路径**。比方说如果我们要引用同一文件夹内的另一图片，可直接输入`./`+文件路径。（输入`src=""`属性时很有用。）
 
-【路径截图】
+![](https://github.com/BurnedChocolate/Tasks/blob/1360f90cf0a1a006c91ef1f38b549551a8cb94e8/%E9%98%B6%E6%AE%B53%E7%AC%94%E8%AE%B0/pictures/%E8%B7%AF%E5%BE%84img.jpg)
 
 
 下图是该部分的所有操作截图。
 
-【图片】
+![](https://github.com/BurnedChocolate/Tasks/blob/1360f90cf0a1a006c91ef1f38b549551a8cb94e8/%E9%98%B6%E6%AE%B53%E7%AC%94%E8%AE%B0/pictures/%E6%A0%87%E9%A2%98%E7%AD%89%E6%93%8D%E4%BD%9C%E6%88%AA%E5%9B%BE%E4%B8%80%E8%A7%88.jpg)
 
 >  🤔：从标题大小个数，到链接与图片插入，很多地方都与使用markdown时的感受相似甚至相同。它们之间是否有联系？
 
-#### 📕块级元素、行内元素（也称内联元素）
+另外还有一些常用标签：
 
+- 换行：`<br>`
+- 水平线：`<hr>`
+- 注释：`<!-- 这个位置写注释 -->`（快捷键ctrl+/）
+- 粗体、斜体、表格等……
 
+HTML标签种类繁多，所有元素可在该网站中查询：[HTML 元素参考](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element)
+
+#### 📕块级元素（Block）、内联元素（Inline）
+
+- **块级元素：**独占一行的元素。块级元素用来搭建网站架构、布局、承载内容，负责整体的大的方面。块级元素其高度、行高和边距都是可控的。（eg：\<div>、\<h1>-\<h6>、\<p>）
+- **内联元素：**通常在一行内显示。内联元素负责局部和细节，其高度、行高和边距不可控。（eg：\<a>、\<img>）
 
 #### 📕
 
 
 
 #### 📕
+
+
 
 ## 3.参考资料
 
 - [HTML｜超简单HTML入门教程 - bilibili](https://www.bilibili.com/video/BV1gP4y1E75S)
+
+- [为初学者准备的：HTML 速成 -bilibili](https://www.bilibili.com/video/BV1vs411M7aT)
 
 - [HTML 教程 - 菜鸟教程](https://www.runoob.com/html/html-tutorial.html)
