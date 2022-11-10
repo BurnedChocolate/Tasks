@@ -155,6 +155,17 @@ HTML标签种类繁多，所有元素可在该网站中查询：[HTML 元素参�
 
 \<div>通常与css一起使用，称**“div+css”**：\<div>标签负责布局、结构、分块，css负责样式。
 
+一个\<div>的使用例子：
+
+```html
+<div style="color:blue">
+	<h1>测试</h1>
+	<p>测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落</p>
+</div>
+```
+
+![](https://github.com/BurnedChocolate/Tasks/blob/718213f4912e62ad4463cd1019d4ba98f662bce5/%E9%98%B6%E6%AE%B53%E7%AC%94%E8%AE%B0/pictures/div%E6%B5%8B%E8%AF%95%E6%AE%B5%E8%90%BD.jpg)
+
 ## 3.参考资料
 
 - [HTML｜超简单HTML入门教程 - bilibili](https://www.bilibili.com/video/BV1gP4y1E75S)
