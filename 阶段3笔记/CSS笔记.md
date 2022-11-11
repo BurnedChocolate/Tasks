@@ -47,7 +47,7 @@ h1{
 
 它的拆分分析如下图所示：
 
-【图片：css语法-结构】
+![](https://github.com/BurnedChocolate/Tasks/blob/30cafd9015150e1b056ece4e4a2be0e759d1bc3d/%E9%98%B6%E6%AE%B53%E7%AC%94%E8%AE%B0/pictures/css%E8%AF%AD%E6%B3%95-%E7%BB%93%E6%9E%84.jpg)
 
 **分析**：
 
@@ -91,7 +91,7 @@ h3{
 
 该部分测试截图如下。
 
-【css-样式类型】
+![](https://github.com/BurnedChocolate/Tasks/blob/30cafd9015150e1b056ece4e4a2be0e759d1bc3d/%E9%98%B6%E6%AE%B53%E7%AC%94%E8%AE%B0/pictures/css-%E6%A0%B7%E5%BC%8F%E7%B1%BB%E5%9E%8B.jpg)
 
 ### ②选择器
 
@@ -149,7 +149,7 @@ h1{
 
 该部分测试截图如下。
 
-【css选择器】
+![](https://github.com/BurnedChocolate/Tasks/blob/30cafd9015150e1b056ece4e4a2be0e759d1bc3d/%E9%98%B6%E6%AE%B53%E7%AC%94%E8%AE%B0/pictures/css%E9%80%89%E6%8B%A9%E5%99%A8.jpg)
 
 ### ③设置元素的基础样式
 
@@ -194,7 +194,7 @@ CSS中，有五个通用字体族：
 
 所有不同的字体名称都属于这五个通用字体系列之一。以下是一些典型的字体展示。
 
-【图片 css字体】
+![](https://github.com/BurnedChocolate/Tasks/blob/30cafd9015150e1b056ece4e4a2be0e759d1bc3d/%E9%98%B6%E6%AE%B53%E7%AC%94%E8%AE%B0/pictures/css%20%E5%AD%97%E4%BD%93.jpg)
 
 修改元素字体的**属性**是`font-family`，其后可接多个字体以提高浏览器兼容性，不同字体间用`,`隔开，如果字体名称超过一个单词则用`""`框起来。（推荐以通用系列字体结束。）
 
@@ -242,7 +242,7 @@ h2 {
 
 该部分测试截图如下。
 
-【css元素的基础样式设置】
+![](https://github.com/BurnedChocolate/Tasks/blob/30cafd9015150e1b056ece4e4a2be0e759d1bc3d/%E9%98%B6%E6%AE%B53%E7%AC%94%E8%AE%B0/pictures/css%E5%85%83%E7%B4%A0%E5%9F%BA%E7%A1%80%E6%A0%B7%E5%BC%8F%E8%AE%BE%E7%BD%AE%EF%BC%88%E5%AD%97%E4%BD%93%E9%A2%9C%E8%89%B2%E7%AD%89.jpg)
 
 ### ④盒模型
 
@@ -253,7 +253,7 @@ h2 {
 - **Padding(内边距)** - 清除内容周围的区域，内边距是透明的。
 - **Content(内容)** - 盒子的内容，显示文本和图像。
 
-【css盒模型】
+![](https://github.com/BurnedChocolate/Tasks/blob/30cafd9015150e1b056ece4e4a2be0e759d1bc3d/%E9%98%B6%E6%AE%B53%E7%AC%94%E8%AE%B0/pictures/css%E7%9B%92%E6%A8%A1%E5%9E%8B.jpg)
 
 > 🤔：盒模型，像一个盒子一样把HTML元素中的所有东西装起来，这些装起来的东西就是外边距、边框、内边距和内容。形象好记。
 
@@ -261,13 +261,13 @@ h2 {
 
 我们可以对外边距、边框、内边距的属性进行调整。下面的例子用一个外部样式的div来进行测试。
 
-【css盒模型测试1】
+![](https://github.com/BurnedChocolate/Tasks/blob/30cafd9015150e1b056ece4e4a2be0e759d1bc3d/%E9%98%B6%E6%AE%B53%E7%AC%94%E8%AE%B0/pictures/css%E7%9B%92%E6%A8%A1%E5%9E%8B%E5%9B%BE%E7%A4%BA1.jpg)
 
 外边距、边框、内边距的属性可以直接指定大小值（上），也可以分别指定上下左右的大小值（中），也可以简写成四个大小值放在需要修改的属性之后（下），最后这种的四个大小值是按照顺时针的方向指示，即上、右、下、左。
 
 此外，如果想看到盒模型的每一部分具体占多少大小，可以在网页中使用快捷键`F12`打开开发者工具，选择相应的div即可看到清晰的该div的盒模型图解。
 
-【css盒模型测试2】
+![](https://github.com/BurnedChocolate/Tasks/blob/30cafd9015150e1b056ece4e4a2be0e759d1bc3d/%E9%98%B6%E6%AE%B53%E7%AC%94%E8%AE%B0/pictures/css%E7%9B%92%E6%A8%A1%E5%9E%8B%E5%9B%BE%E7%A4%BA2.jpg)
 
 > 🤔：在上一部分设置元素的基础样式的实操测试中，调整字体大小时，字体周边的空白部分也会随之增减，应该就是系统对盒模型进行了一定自动调整。
 
@@ -275,7 +275,7 @@ h2 {
 
 CSS的定位指的是`position`属性，position属性有五个值：relative（相对定位）、absolute（绝对定位）、static（静态定位）、fixed（固定定位）和sticky（粘性定位）。position属性必须结合这五个值一起使用。
 
-> 🤔：定位的效果是让元素固定在某个位置，而五个值决定了不同的固定方式。感觉这部分有点抽象……
+> 🤔：定位的效果是让元素固定在某个位置，而五个值决定了不同的固定方式。
 
 - **static（静态定位）**
 
@@ -326,7 +326,9 @@ top:0;
 
 该部分测试截图如下。
 
-【css定位】
+![](https://github.com/BurnedChocolate/Tasks/blob/30cafd9015150e1b056ece4e4a2be0e759d1bc3d/%E9%98%B6%E6%AE%B53%E7%AC%94%E8%AE%B0/pictures/css%E5%AE%9A%E4%BD%8D.jpg)
+
+> 🤔：感觉这部分有点抽象……
 
 ### ⑥常用布局方式
 
