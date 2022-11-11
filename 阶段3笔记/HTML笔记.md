@@ -1,6 +1,6 @@
 # HTML基础
 
-# 0.学习要求
+## 0.学习要求
 
 1. 学习并能够使用常用的HTML标签 如【`<div>、<p>、<a>、<button> 等等`】 【重点】
 2. 学习理解各类标签中的块级元素与内联元素 【重点】
@@ -134,7 +134,7 @@ HTML标签种类繁多，所有元素可在该网站中查询：[HTML 元素参�
 - **块级元素：**独占一行的元素。块级元素用来搭建网站架构、布局、承载内容，负责整体的大的方面。块级元素其高度、行高和边距都是可控的。（eg：\<div>、\<h1>-\<h6>、\<p>）
 - **内联元素：**通常在一行内显示。内联元素负责局部和细节，其高度、行高和边距不可控。（eg：\<a>、\<img>）
 
-#### 📕\<div>、\<span>标签【重要】
+#### 📕\<div>、\<span>标签
 
 \<div>，division，分割；\<span>，span，范围、跨度。
 
@@ -162,10 +162,17 @@ HTML标签种类繁多，所有元素可在该网站中查询：[HTML 元素参�
 
 ![](https://github.com/BurnedChocolate/Tasks/blob/718213f4912e62ad4463cd1019d4ba98f662bce5/%E9%98%B6%E6%AE%B53%E7%AC%94%E8%AE%B0/pictures/div%E6%B5%8B%E8%AF%95%E6%AE%B5%E8%90%BD.jpg)
 
+\<div>与css一起使用时，我们通常在body中定义div的class值，然后在css的外部样式中对其进行修改。具体例子见css笔记的盒模型部分。
+
 ## 3.参考资料
 
-- [HTML｜超简单HTML入门教程 - bilibili](https://www.bilibili.com/video/BV1gP4y1E75S)
-- [为初学者准备的：HTML 速成 -bilibili](https://www.bilibili.com/video/BV1vs411M7aT)
-- [HTML 教程 - 菜鸟教程](https://www.runoob.com/html/html-tutorial.html)
-- [qianguyihao/Web：前端图文教程 - github](https://github.com/qianguyihao/Web)
-- [HTML 元素参考](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element)
+- 入门教程：
+    - [HTML｜超简单HTML入门教程 - bilibili](https://www.bilibili.com/video/BV1gP4y1E75S)
+    - [为初学者准备的：HTML 速成 -bilibili](https://www.bilibili.com/video/BV1vs411M7aT)
+- 更加专业的教程：
+	- [HTML 教程 - 菜鸟教程](https://www.runoob.com/html/html-tutorial.html)
+	- [HTML 教程 - w3school](https://www.w3school.com.cn/html/index.asp)
+	- [qianguyihao/Web：前端图文教程 - github](https://github.com/qianguyihao/Web)
+- 其他资料：
+    - [HTML 元素参考](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element)
+
