@@ -12,4 +12,4 @@
 - [HTML笔记](https://github.com/BurnedChocolate/Tasks/blob/709c9136e79e8766cba183ab129a267e22705303/%E9%98%B6%E6%AE%B53%E7%AC%94%E8%AE%B0/HTML%E7%AC%94%E8%AE%B0.md)
 - [CSS笔记](https://github.com/BurnedChocolate/Tasks/blob/709c9136e79e8766cba183ab129a267e22705303/%E9%98%B6%E6%AE%B53%E7%AC%94%E8%AE%B0/CSS%E7%AC%94%E8%AE%B0.md)
 - [JavaScript笔记](https://github.com/BurnedChocolate/Tasks/blob/709c9136e79e8766cba183ab129a267e22705303/%E9%98%B6%E6%AE%B53%E7%AC%94%E8%AE%B0/JavaScript%E7%AC%94%E8%AE%B0.md)
-- [静态页面展示]()
+- [静态页面展示](https://burnedchocolate.github.io/Tasks/)
