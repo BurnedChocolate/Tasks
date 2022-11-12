@@ -18,9 +18,12 @@
 
 **✔JavaScript是一种轻量级的编程语言**
 
+JavaScript是互联网上最流行的脚本语言，用于HTML和web，是一种轻量级、大功能强大的脚本语言。
+**脚本语言**：并非在计算机CPU直接去识别的语言，运行不用进行编译，但执行需要平台。
+
 ✔**JavaScript、HTML、CSS之间的联系**
 
-JavaScript是web开发者必学的三种语言之一。
+JavaScript是web开发三件套之一。三件套如下：
 
 - HTML定义网页的内容；
 - CSS规定网页的布局；
