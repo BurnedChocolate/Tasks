@@ -10,7 +10,7 @@
 6. 了解CSS常用的布局方式
 7. CSS的伪类
 
-## 1.CSS是什么
+## 1.CSS是什么？
 
 ✔**CSS = Cascading Style Sheets（层叠样式表）**
 
@@ -192,7 +192,7 @@ CSS中，有五个通用字体族：
 - 草书字体（Cursive）- 模仿人类笔迹的字体。
 - 幻想字体（Fantasy）- 装饰性/俏皮的字体。
 
-所有不同的字体名称都属于这五个通用字体系列之一。以下是一些典型的字体展示。
+所有不同的字体名称都属于这五个通用字体系列之一。以下是一些典型的字体展示，使用时可以进行参考。
 
 ![](https://github.com/BurnedChocolate/Tasks/blob/30cafd9015150e1b056ece4e4a2be0e759d1bc3d/%E9%98%B6%E6%AE%B53%E7%AC%94%E8%AE%B0/pictures/css%20%E5%AD%97%E4%BD%93.jpg)
 
@@ -332,7 +332,37 @@ top:0;
 
 ### ⑥常用布局方式
 
+- 单列布局
+- 两列自适应布局
+- 三栏布局
+- 粘连布局
+- ……
+
 ### ⑦伪类
+
+伪类（pseudo-class）用于定义元素的特殊状态。它的作用有：
+
+- 设置鼠标悬停在元素上时的样式
+- 为已访问和未访问链接设置不同的样式
+- 设置元素获得焦点时的样式
+
+格式：
+
+```css
+选择器:伪类 {
+  属性:属性值;
+}
+```
+
+伪类：`link`，未访问的链接；`visited`，已访问的链接；`hover`，鼠标悬停链接；`active`，已选择的链接。
+
+示例：
+
+```css
+a:link {
+  color: #FF0000;
+}
+```
 
 ## 3. 参考资料
 
@@ -341,4 +371,7 @@ top:0;
 - 更加专业的教程：
 	- [qianguyihao/Web：前端图文教程 - github](https://github.com/qianguyihao/Web)
 	- [CSS 教程 - 菜鸟教程](https://www.runoob.com/css/css-tutorial.html)
-	- [CSS 教程 - w3school)](https://www.w3school.com.cn/css/index.asp)
+	- [CSS 教程 - w3school](https://www.w3school.com.cn/css/index.asp)
+
+- 常用布局方式参考：
+  - [几种常见的 CSS 布局 - CSDN](https://blog.csdn.net/VhWfR2u02Q/article/details/84076421?ops_request_misc=%7B%22request%5Fid%22%3A%22166817247816782425139735%22%2C%22scm%22%3A%2220140713.130102334..%22%7D&request_id=166817247816782425139735&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-84076421-null-null.142^v63^control,201^v3^add_ask,213^v2^t3_control1&utm_term=css常用的几种布局方式&spm=1018.2226.3001.4187)

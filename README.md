@@ -6,3 +6,10 @@
 ### 阶段二 - Git基础操作的学习
 - [Git的基本操作](https://github.com/BurnedChocolate/Tasks/blob/main/%E9%98%B6%E6%AE%B52%E7%AC%94%E8%AE%B0/Git%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C.md)
 - [hello.md](https://github.com/BurnedChocolate/Tasks/blob/main/%E9%98%B6%E6%AE%B52%E7%AC%94%E8%AE%B0/hello.md)
+
+### 阶段三 - Web相关领域的基础学习：HTML/CSS/JavaScript
+
+- HTML笔记
+- CSS笔记
+- JavaScript笔记
+- 静态页面展示
