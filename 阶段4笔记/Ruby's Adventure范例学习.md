@@ -23,7 +23,7 @@
 
 ### 0.asset store（资源商店）
 
-【资源商店】
+![【资源商店】](https://github.com/BurnedChocolate/Tasks/blob/5c64649f17a372143fbbc6f825a696c6b468801a/%E9%98%B6%E6%AE%B54%E7%AC%94%E8%AE%B0/pictures/%E8%B5%84%E6%BA%90%E5%95%86%E5%BA%97.png)
 
 路径：`window - asset store`
 
@@ -37,7 +37,7 @@
 
 > 🤔：面板基本上都是可拖拽的。
 
-【五大视图】
+![【五大视图】](https://github.com/BurnedChocolate/Tasks/blob/5c64649f17a372143fbbc6f825a696c6b468801a/%E9%98%B6%E6%AE%B54%E7%AC%94%E8%AE%B0/pictures/%E4%BA%94%E5%A4%A7%E8%A7%86%E5%9B%BE.jpg)
 
 | 名称                        | 功能                                                         |
 | --------------------------- | ------------------------------------------------------------ |
@@ -51,7 +51,9 @@
 
 - **场景**：游戏由一幕幕的场景组成。场景中有不同的内容物。
 - **游戏物体**：场景中的内容物。例如main camera、游戏角色、方块等。
-- **父子关系**：（隶属关系），移动、缩放、删除父对象会对子对象产生相同的影响。
+- **父子关系**：（隶属关系），移动、缩放、删除父对象会对子对象产生相同的影响。见下图。
+
+![【父子关系】](https://github.com/BurnedChocolate/Tasks/blob/5c64649f17a372143fbbc6f825a696c6b468801a/%E9%98%B6%E6%AE%B54%E7%AC%94%E8%AE%B0/pictures/%E7%88%B6%E5%AD%90%E5%85%B3%E7%B3%BB.png)
 
 > 🤔：hierarchy [n.] 等级制度 ; inspector [n.] 检察员 。
 
@@ -63,7 +65,7 @@
 
 看一个示例。
 
-【组件】
+![【组件】](https://github.com/BurnedChocolate/Tasks/blob/5c64649f17a372143fbbc6f825a696c6b468801a/%E9%98%B6%E6%AE%B54%E7%AC%94%E8%AE%B0/pictures/%E7%BB%84%E4%BB%B6.png)
 
 其中，转换/变换 - transform就是一个重要的组件，它的三个属性分别指定当前物体位置（position）、旋转角度（rotation）和缩放（scale）。transform component不可被移除。按住transform组件中的x、y、z字母进行拖动，可对相应属性进行调整。
 
@@ -232,7 +234,7 @@
 
 - 点击inspector最下面的**apply**就可以让瓦片无缝衔接了！
 
-【场景其二】
+![【场景其二】](https://github.com/BurnedChocolate/Tasks/blob/5c64649f17a372143fbbc6f825a696c6b468801a/%E9%98%B6%E6%AE%B54%E7%AC%94%E8%AE%B0/pictures/%E5%9C%BA%E6%99%AF%E5%85%B6%E4%BA%8C.png)
 
 - 把一张图片打包成九种资源
 
@@ -248,7 +250,7 @@
 
   关闭窗口，点**apply**。
 
-  【切割图片】
+  ![【切割图片】](https://github.com/BurnedChocolate/Tasks/blob/5c64649f17a372143fbbc6f825a696c6b468801a/%E9%98%B6%E6%AE%B54%E7%AC%94%E8%AE%B0/pictures/%E5%9B%BE%E7%89%87%E5%88%87%E5%89%B2.png)
 
 - 调色板中的工具栏（只对瓦片起作用）
 
@@ -279,7 +281,7 @@
 - 可以创建多个tilemap（瓦片地图）（也就是画布），可在inspector中勾选它的显示和隐藏。达到隐藏某画布的效果。
 - 橡皮擦工具也可以定义大小，只要在tile palette中框选不同的大小即可。
 
-【场景绘制】
+![【场景绘制】](https://github.com/BurnedChocolate/Tasks/blob/5c64649f17a372143fbbc6f825a696c6b468801a/%E9%98%B6%E6%AE%B54%E7%AC%94%E8%AE%B0/pictures/%E5%9C%BA%E6%99%AF%E7%BB%98%E5%88%B6.png)
 
 ### 8.渲染顺序与层级设置
 
@@ -295,6 +297,10 @@
 
   - 打开3d模式，调整主角z轴位置。（不推荐）
   - 按照上述修改层级大小。推荐地形层级设置为`-10`，因为地形需要最先进行渲染以防被后面添加的物品挡住。
+
+
+
+
 
 
 
