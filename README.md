@@ -16,4 +16,5 @@
 
 ### 阶段四 - unity引擎入门
 
-- [Ruby's Adventure范例学习](https://github.com/BurnedChocolate/Tasks/blob/b80db7f08cac7f6e9912c8230324d52de9932f58/%E9%98%B6%E6%AE%B54%E7%AC%94%E8%AE%B0/Ruby's%20Adventure%E8%8C%83%E4%BE%8B%E5%AD%A6%E4%B9%A0.md)
+- [Ruby's Adventure范例学习笔记](https://github.com/BurnedChocolate/Tasks/blob/b80db7f08cac7f6e9912c8230324d52de9932f58/%E9%98%B6%E6%AE%B54%E7%AC%94%E8%AE%B0/Ruby's%20Adventure%E8%8C%83%E4%BE%8B%E5%AD%A6%E4%B9%A0.md)
+- [项目文件 - BurnedChocolate/Game-repository (github.com)](https://github.com/BurnedChocolate/Game-repository)
